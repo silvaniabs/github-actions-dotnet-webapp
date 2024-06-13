@@ -17,5 +17,8 @@ jobs:
       - name: Run custom script
         run: ./scripts/custom-script.sh # Execute o script personalizado
 
+      - name: Run custom script on schedule
+        run: scripts/scripts/custom-scheduled-script.sh
+
 
     

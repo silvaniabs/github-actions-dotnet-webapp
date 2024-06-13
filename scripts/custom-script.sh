@@ -1,6 +1,8 @@
 #bash
-echo "This is a custom script running on push"
+echo "Este é um script personalizado executado em push"
 
-# customização
-echo "Running tests..."
-npm test
+# customizações 
+echo "Verificando arquivos..."
+ls -la
+
+echo "Finalizado script personalizado para push"
